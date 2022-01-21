@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef&family=Merriweather:ital,wght@0,400;1,700&family=Rochester&display=swap');
+
+*{
+box-sizing: border-box; 
+}
+body {
+font-family: 'Merriweather', serif;
+margin: 0 ;
+display: flex; 
+flex-direction: column; 
+align-items: center; 
+justify-content: center; 
+height: 100vh; 
+overflow: hidden; 
+background-color: #32502E; 
+font-size: 18px; 
+}
+
+.container{
+    background-color: #F3EFCC;
+    min-height: 700px;
+    width: 1300px;  
+    padding: 10px 50px; 
+    border-radius: 15px; 
+    position: relative; 
+}
+
+h1{
+    font-weight: 700; 
+    font-size: 3rem; 
+    color: #406343; 
+    text-align: center; 
+    font-family: 'Rochester', cursive;
+    text-shadow: 5px 0px 15px rgba(50,80,46, 0.7);
+}
+
+.ayah{
+    position: absolute; 
+    top: 9rem; 
+    right: 50px; 
+    font-size: 40px; 
+    width: 800px; 
+}
+.dec{
+    width: 30px; 
+    display: inline; 
+    transform: translateX(-10px)
+}
+
+.description-box{
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 2rem; 
+    padding: 50px; 
+
+}
+#btn{
+    border: solid 3px #32502E ; 
+    font-size: 2rem; 
+    text-transform: lowercase;
+    font-family: 'Rochester', cursive;
+    text-align: center; 
+    height: 60px; 
+    width: 200px; 
+    padding: 1px 30px 30px 30px; 
+    background-color: #32502E; 
+    color: #F3EFCC; 
+    border-radius: 15px; 
+    transition: 400ms ease-in-out; 
+}
+#btn:hover{
+    background-color: transparent;
+    color: #32502E; 
+}
