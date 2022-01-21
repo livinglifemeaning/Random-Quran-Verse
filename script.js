@@ -8,7 +8,7 @@ function getAyahNumber() {
 }
 
 async function getAyah() {
-    const response = await fetch (`http://api.alquran.cloud/v1/ayah/${getAyahNumber()}/editions/quran-uthmani,en.pickthall`); 
+    const response = await fetch (`https://api.alquran.cloud/v1/ayah/${getAyahNumber()}/editions/quran-uthmani,en.pickthall`); 
     const ayah = await response.json(); 
     return ayah.data
 }
